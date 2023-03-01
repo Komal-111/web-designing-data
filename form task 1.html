@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: cadetblue;
+        }
+        
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+        
+        .header {
+            height: 700px;
+            width: 100%;
+        }
+        
+        h3 {
+            margin-top: 30px;
+            font-size: 30px;
+            color: aliceblue;
+            text-align: center;
+        }
+        
+        legend {
+            color: aliceblue;
+        }
+        
+        fieldset {
+            height: 400px;
+            width: 800px;
+            margin-top: 20px;
+        }
+        
+        div {
+            font-size: 30px;
+            color: aliceblue;
+            padding: 10px;
+        }
+        
+        .slider {
+            float: left;
+            text-align: left;
+        }
+        
+        .slider input {
+            width: 350px;
+            height: 20px;
+        }
+        
+        .footer {
+            float: right;
+            text-align: left;
+        }
+        
+        .footer input {
+            width: 400px;
+            height: 20px;
+        }
+        
+        input[type=submit] {
+            background: orangered;
+            color: aliceblue;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h3>room booking enquiry form</h3>
+        <center>
+            <div class="contener">
+                <fieldset>
+                    <legend align="center">log-in</legend>
+                    <form>
+                        <div class="slider">
+                            your name:<br>
+                            <input type="text" placeholder="name"><br> your email:<br>
+                            <input type="text" placeholder="email"><br> your enquiry type:<br>
+                            <input type="text" placeholder="enquiry"><br> accomdation enquiry:<br>
+                            <input type="text" placeholder="accomdation enquiry"><br> date of arrival:<br>
+                            <input type="text" placeholder="date"><br>
+                        </div>
+                        <div class="footer">
+                            number of person:<br>
+                            <input type="text" placeholder="1"><br> number of days:<br>
+                            <input type="text" placeholder="1"><br> costumer enquiry:<br>
+                            <input type="text" style="height: 100px;" placeholder="your queries"><br><br>
+                            <input type="submit" style="height: 30px;">
+                        </div>
+                    </form>
+                </fieldset>
+            </div>
+        </center>
+    </div>
+</body>
+
+</html>
